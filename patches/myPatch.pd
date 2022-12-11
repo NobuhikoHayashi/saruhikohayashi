@@ -7,8 +7,6 @@
 #X obj 146 162 hip~ 5;
 #X obj 146 186 dac~;
 #X obj 146 114 *~ 0.1;
-#X obj 277 197 loadbang;
-#X msg 277 221 \; pd dsp 1;
 #X connect 0 0 7 0;
 #X connect 1 0 5 0;
 #X connect 2 0 3 0;
@@ -17,4 +15,3 @@
 #X connect 5 0 6 0;
 #X connect 5 0 6 1;
 #X connect 7 0 1 0;
-#X connect 8 0 9 0;
