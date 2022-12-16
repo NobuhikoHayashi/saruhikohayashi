@@ -6,17 +6,13 @@ html{
 
 body{
     font-family: 'Noto Serif JP', serif;
-       background-color: #486d46;            /* 背景色 */
-   background-image: url("img_tfowsu_1.jpg"); /* 画像 */
-   background-size: cover;               /* 全画面 */
-   background-attachment: fixed;         /* 固定 */
-   background-position: center center;   /* 縦横中央 */
+    background:#eee;
 }
 
 
 iframe {
-    width: 60%;
-    height: auto;
+    /*width: 60%;
+    height: auto;*/
     opacity: 1;
 }
 
@@ -26,14 +22,13 @@ text-align : center;
 
 h1{
     letter-spacing: 1px;
-    font-size: 200%;
+    font-size: 250%;
     padding-top: 10px;
     padding-bottom: 10px;
     font-family: 'Noto Serif JP', serif;
     font-weight: 1000;
     margin-left: 50px;
     margin-right: 50px;
-    text-align : center;
 }
 
 h2{
@@ -45,27 +40,28 @@ h2{
     font-weight: 500;
     margin-left: 100px;
     margin-right: 100px;
-    text-align : center;
 }
 
 p{
     letter-spacing: 0px;
-    font-size: 100%;
+    font-size: 90%;
     line-height: 180%;
     padding-top:0px;
     padding-bottom: 0px;
-
+    margin-left: 150px;
+    margin-right: 50px;
     font-family: 'Noto Serif JP', serif;
     font-color: 000;
-    text-align : center;
 }
 
 li{
+    font-size: 90%;
     font-family: 'Noto Serif JP', serif;
 }
 
 a{
-color: black;
+    font-size: 100%;
+    color: black;
 }
 
 
@@ -73,10 +69,20 @@ dt,dd,address{
     letter-spacing: 3px;
 }
 
+.right(
+text-align: right;
+)
+
+//ナビゲーションメニューの部分//
+
+.navFont{
+    font-family: 'Open Sans', sans-serif;  
+}
+
 #nav li a,#f_nav li a{
     letter-spacing: 0px;
-    font-weight: 100;
-    font-size: 100%;
+    font-weight: 1000;
+    font-size: 120%;
 }
 
 #nav li,#f_nav li{
@@ -103,3 +109,190 @@ br{
     padding-bottom: 10px;
 }
 
+#wrapper{
+    display: block;
+    width:100%;
+    height: auto;
+    margin:0 auto;
+}
+
+#menu{
+    width:100%;
+    top:0;
+    left:0;
+    position:fixed;
+    padding: 10px 0px;
+    letter-spacing: 10px;
+    //background: #eee;
+    margin-left: 0px;
+    z-index: 100;
+}
+//239//
+
+
+.title{
+    font-size: 100%;
+    padding: 30px 0px;
+    letter-spacing: 5px;
+    color:#888;
+}
+
+.wtitle{
+    text-align: left;
+    font-size: 160%;
+    padding: 10px 0px;
+    color:#000;
+}
+//wはworkのw//
+
+.r{
+    text-align: right;
+}
+
+.caption{
+    text-align: left;
+    font-size: 100%;
+    padding: 10px 0px;
+    letter-spacing: 5px;
+    color:#000;
+}
+
+.subt{
+    font-weight: 900;
+    letter-spacing: 0px;
+    font-size: 80%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.smallt{
+    letter-spacing: 0px;
+    font-size: 120%;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    color: #999;
+}
+
+.descript{
+    text-align: left;
+}
+//作品説明文//
+
+.copy{
+    font-size: 50%;
+}
+
+.pageTitle{
+    font-family: 'Open Sans', sans-serif;  
+    margin-left: 100px;
+}
+
+.smalltext{
+    font-size: 80%;
+    font-family: 'Open Sans', sans-serif;  
+    }
+    
+.red{
+    color: #F00;
+     font-family: 'Open Sans', sans-serif;  
+}
+
+.color1{
+    color: #88e;
+}
+
+
+.bold{
+    font-weight: 1000;
+}
+
+.margin150{
+    letter-spacing: 0px;
+    font-size: 90%;
+    line-height: 180%;
+    padding-top:0px;
+    padding-bottom: 0px;
+    margin-left: 150px;
+    margin-right: 50px;
+    font-family: 'Noto Serif JP', serif;
+    font-color: 000;
+}
+
+.newsList{
+  border-left: solid 10px #aac;/*左側の線*/
+  margin-bottom: 3px;/*下のバーとの余白*/
+   line-height: 1.5;
+  padding: 0.5em;
+    letter-spacing: 0px;
+    font-size: 100%;
+    line-height: 180%;
+    padding-top:0px;
+    padding-bottom: 0px;
+    margin-left: 150px;
+    margin-right: 50px;
+    font-family: 'Noto Serif JP', serif;
+    }
+
+
+.workList{
+  border-left: solid 10px #aac;/*左側の線*/
+  margin-bottom: 3px;/*下のバーとの余白*/
+   line-height: 1.5;
+  padding: 0.5em;
+    letter-spacing: 0px;
+    font-size: 100%;
+    line-height: 180%;
+    padding-top:0px;
+    padding-bottom: 0px;
+    margin-left: 150px;
+    margin-right: 50px;
+    font-family: 'Noto Serif JP', serif;
+    }
+
+#news, #works, #shop, #documents, #profile, #contact, #links{
+ padding-top: 100px;
+  margin-top:-100px;
+    /*background-image: url(test.png);  画像 */
+    background-repeat: no-repeat;
+    background-position:0px 0px;
+}
+
+dd{
+    font-size: 150%;
+}
+
+
+
+#f_nav{
+    font-size: 137%;
+    padding-bottom: 25px;
+    padding-top: 50px;
+}
+
+/* 横並び */
+
+.flex {
+  display: flex; /*横並び*/
+}
+.flex .image {
+  width: 100px; /*画像サイズ指定*/
+  margin: 0px;
+  margin-left: 50px;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+}
+.flex .right {
+  margin: 0 0 0 10px;
+  padding: 0;
+}
+.flex .title {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  font-size: 40px;
+}
+.flex .text {
+  margin: 0px 0 0;
+  padding: 0;
+}
